@@ -1,0 +1,9 @@
+Whether certain workout types are associated with higher calorie expenditure
+
+Whether experience level affects workout intensity or duration
+
+Whether BMI or body composition relates to workout performance
+
+Whether heart rate metrics vary across workout types or individuals
+
+Whether lifestyle factors such as water intake or workout frequency appear connected to workout outcomes
