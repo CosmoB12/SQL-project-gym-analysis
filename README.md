@@ -117,6 +117,7 @@ BMI alone does not appear to strongly determine workout performance. This may be
 #### Heart Rate Metrics
 
 ![Heart rate by workout type](assets/heart_rate_by_workout.png)
+
 Heart rate metrics remain relatively consistent across workout types, suggesting that participants in the dataset train at similar cardiovascular intensity levels.
 
 #### Lifestyle Factors
