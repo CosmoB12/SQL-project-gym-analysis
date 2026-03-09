@@ -1,8 +1,6 @@
 --Does your bmi and body composition affect workout performance
 CREATE VIEW bmi_performance AS
 SELECT
-    
-  
     CASE
         WHEN bmi <18.5 THEN 'Underweight'
         WHEN bmi BETWEEN 18.5 AND 24.9 THEN 'Normalweight'
@@ -14,18 +12,13 @@ SELECT
     END AS bmi_ranges,
     COUNT(*) AS members,
     PERCENTILE_CONT(0.5) 
-    WITHIN GROUP (ORDER BY fat_percentage) AS average_body_fat_percentage,
-    
+    WITHIN GROUP (ORDER BY fat_percentage) AS average_body_fat_percentage,  
     PERCENTILE_CONT(0.5) 
     WITHIN GROUP (ORDER BY calories_burned) AS average_calories_burned,
     AVG(session_duration_hours) AS average_session_duration
-
 FROM
     member_data
-
 JOIN workouts ON member_data.member_id = workouts.member_id
-
-
 GROUP BY
     bmi_ranges
 ORDER BY

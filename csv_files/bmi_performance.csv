@@ -1,0 +1,8 @@
+"bmi_ranges","members","average_body_fat_percentage","average_calories_burned","average_session_duration"
+"No data","10",27,899.5,"1.3140000000000000"
+"Underweight","168",26.7,834.5,"1.1635119047619048"
+"Normalweight","366",26.45,921,"1.3020765027322404"
+"Overweight","238",26.35,912.5,"1.2875210084033613"
+"Obseity Class III","34",24.65,895,"1.1285294117647059"
+"Obesity Class II","37",24.6,842,"1.1132432432432432"
+"Obesity Class I","120",24.35,916.5,"1.2611666666666667"
