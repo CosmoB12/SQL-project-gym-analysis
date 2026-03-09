@@ -70,7 +70,7 @@ To simplify analysis and visualization, SQL views were created for each research
 
 Analyzes average calories burned and session duration by workout type.
 
-![Workout Performance](assets\view_1.png)
+![Workout Performance](assets/view_1.png)
 
 This helps identify which workout types burn the most calories.
 
@@ -78,7 +78,7 @@ This helps identify which workout types burn the most calories.
 
 Groups members into BMI ranges and examines their workout performance and body fat percentage.
 
-![Workout Performance](assets\view_2.png)
+![Workout Performance](assets/view_2.png)
 
 Median values were used to reduce the influence of extreme outliers.
 
@@ -86,48 +86,48 @@ Median values were used to reduce the influence of extreme outliers.
 
 Analyzes cardiovascular intensity across different workout types.
 
-![Heart Rate Metrics](assets\view_3.png)
+![Heart Rate Metrics](assets/view_3.png)
 
 #### Water Intake
 
 Buckets water intake levels and compares them with workout performance metrics.
 
 
-![Water Intake levels](assets\view_5.png)
+![Water Intake levels](assets/view_5.png)
 #### Experience level 
 
 Examines how training experience influences workout duration and calories burned.
 
-![Expeirence level](assets\view_4.png)
+![Expeirence level](assets/view_4.png)
 
 ## Key Findings
 
 #### Workout Type Performance
 
-![Workout Type](assets\workout_performance.png)
+![Workout Type](assets/workout_performance.png)
 
 Workout types show relatively similar cardiovascular intensity levels, although some workouts burn slightly more calories on average.
 
 #### BMI and Body Composition
 
-![performance by bmi](assets\avg_calories_bmi.png)
+![performance by bmi](assets/avg_calories_bmi.png)
 
 BMI alone does not appear to strongly determine workout performance. This may be due to BMI not accounting for muscle mass, which can distort body composition estimates.
 
 #### Heart Rate Metrics
 
-![Heart rate by workout type](assets\heart_rate_by_workout.png)
+![Heart rate by workout type](assets/heart_rate_by_workout.png)
 Heart rate metrics remain relatively consistent across workout types, suggesting that participants in the dataset train at similar cardiovascular intensity levels.
 
 #### Lifestyle Factors
 
-![Performance by water intake](assets\average_water_intake.png)
+![Performance by water intake](assets/average_water_intake.png)
 
 Members with higher water intake levels tend to burn more calories on average and have slightly longer workout sessions.
 
 #### Experience Level
 
-![Performance by experience level](assets\experience_level.png)
+![Performance by experience level](assets/experience_level.png)
 
 More experienced members generally train for longer durations and burn more calories per session.
 
