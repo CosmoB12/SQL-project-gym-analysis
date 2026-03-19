@@ -1,2 +1,2 @@
 SELECT *
-FROM experience_level
+FROM workouts
